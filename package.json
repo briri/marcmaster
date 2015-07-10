@@ -21,8 +21,9 @@
   "homepage": "https://github.com/briri/marcmaster",
   "dependencies": {
     "express": "^4.13.1",
-		"body-parser": "^1.13.2",
-		"js-yaml": "^3.3.1",
-		"bunyan": "^1.4.0"
+    "body-parser": "^1.13.2",
+    "js-yaml": "^3.3.1",
+    "bunyan": "^1.4.0",
+    "marcjs": "^0.1.10"
   }
 }
