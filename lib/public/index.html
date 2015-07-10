@@ -12,7 +12,13 @@
 Howdy there
 <br /><br />
 
-		{{submission.message}}
+		<ul>
+			<li ng-repeat="field in record.fields">
+				<h4>{{ field[0] }}</h4><div>{{ field.slice(1, field.length) }}</div>
+			</li>
+		</ul>
+
+		<div>{{ record }}</div>
 
 	</body>
 </html>
