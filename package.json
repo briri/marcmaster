@@ -1,0 +1,28 @@
+{
+  "name": "marcmaster",
+  "version": "0.0.0",
+  "description": "An alternativer to MarcEdit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briri/marcmaster.git"
+  },
+  "keywords": [
+    "marc"
+  ],
+  "author": "Brian Riley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briri/marcmaster/issues"
+  },
+  "homepage": "https://github.com/briri/marcmaster",
+  "dependencies": {
+    "express": "^4.13.1",
+		"body-parser": "^1.13.2",
+		"js-yaml": "^3.3.1",
+		"bunyan": "^1.4.0"
+  }
+}
