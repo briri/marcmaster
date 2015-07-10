@@ -1,2 +1,2 @@
-# marc-js
-A Javascript library for reading, transforming, managing, and writing MARC records
+# marcmaster
+An alternative to MarcEdit
